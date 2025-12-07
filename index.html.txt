@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brilliant Castles – Group Home Care</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="hero">
+        <h1>Brilliant Castles</h1>
+        <p>Safe. Supportive. Compassionate Group Home Living.</p>
+        <a href="#contact" class="btn">Contact Us</a>
+    </header>
+
+    <section class="section">
+        <h2>About Us</h2>
+        <p>
+            Brilliant Castles is a dedicated group home providing a supportive 
+            and structured living environment for individuals who need care, 
+            stability, and guidance. Our mission is to empower residents through 
+            compassion, safety, and personalized support.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Our Services</h2>
+        <ul>
+            <li>24/7 Supervision & Care</li>
+            <li>Medication Management</li>
+            <li>Life Skills & Personal Development</li>
+            <li>Healthy Meals & Daily Support</li>
+            <li>Safe, Comfortable Living Environment</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Why Choose Brilliant Castles?</h2>
+        <p>
+            We combine structure, warmth, and professional care to help residents 
+            feel safe, respected, and supported. Our staff members are trained 
+            professionals committed to helping individuals thrive.
+        </p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: <strong>info@brilliantcastles.com</strong></p>
+        <p>Phone: <strong>(555) 123-4567</strong></p>
+        <p>Location: Your City, State</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Brilliant Castles Group Home. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
