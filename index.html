@@ -24,9 +24,9 @@
             align-items: center;
         }
 
+        /* Remove the logo image entirely */
         header img {
-            height: 55px;
-            filter: drop-shadow(0 0 10px white);  /* white silhouette */
+            display: none;
         }
 
         nav a {
@@ -38,7 +38,7 @@
 
         /* HERO */
         .hero {
-            background: url('logo.jpeg') center/cover no-repeat;
+            background: url('hero.jpg') center/cover no-repeat;
             height: 430px;
             display: flex;
             align-items: center;
@@ -77,9 +77,9 @@
             flex-wrap: wrap;
         }
 
+        /* Remove image in dark section */
         .dark-section img {
-            width: 260px;
-            filter: drop-shadow(0 0 12px white);
+            display: none;
         }
 
         /* SERVICES */
@@ -147,7 +147,7 @@
 
 <!-- NAVBAR -->
 <header>
-    <img src="logo.jpeg" alt="Brilliant Castles Logo">
+    <!-- Logo removed -->
     <nav>
         <a href="#about">About</a>
         <a href="#living">Residential Living</a>
@@ -177,8 +177,7 @@
 
 <!-- DARK SECTION - RESIDENTIAL LIVING -->
 <section id="living" class="dark-section">
-    <img src="logo.jpeg" alt="Castle Logo">
-
+    <!-- Removed dark-section logo image -->
     <div style="flex:1; min-width:280px;">
         <h2 style="text-align:left;">Residential Living</h2>
         <p>
@@ -245,4 +244,3 @@
 
 </body>
 </html>
-
